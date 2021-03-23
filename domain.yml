@@ -1,0 +1,35 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+- ask_location
+- greet
+- inform
+- goodbye
+- action_weather
+entities:
+- location
+slots:
+  location:
+    type: unfeaturized
+responses:
+  utter_ask_location:
+  - text: In what location?
+  - text: Where do you want me to check weather at?
+  - text: The weather in what location?
+  - text: Please tell me the location?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye!
+  - text: Have a good day!
+  - text: Enjoy your day!
+  utter_greet:
+  - text: Hi! I am weabot the weather bot! Can I help you?
+  - text: Hello! My name is weabot and I'm a weather bot. How can I help?
+  - text: Hi! My name is weabot and I'm a weather bot. Can I help you?
+  - text: Hey there! I am weabot and I can tell current weather. Can I help you?
+actions:
+- action_weather
+- utter_ask_location
+- utter_goodbye
+- utter_greet
