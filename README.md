@@ -1,4 +1,4 @@
-# Weatherbot Tutorial (using the latest release of Rasa NLU and Rasa Core)
+# Weatherbot Tutorial (using the latest release of Rasa NLU and Rasa Core) [ FORKED ]
 
 Rasa NLU and Rasa Core devs are doing an amazing job improving both of these libraries which results in code changes for one method or another. In fact, since I recorded a Wetherbot tutorial,
 there were quite a few changes which were introduced to Rasa NLU and Rasa Core. On 21st of May 2019, Rasa 1.0 was released with a lot of changes under the hood. This repo contains the updated weatherbot code compatible with the latest release of Rasa.
